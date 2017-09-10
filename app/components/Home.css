@@ -1,14 +1,24 @@
 .container {
   position: absolute;
   top: 30%;
-  left: 10px;
+  left: 0;
+  right:0;
   text-align: center;
 }
 
 .container h2 {
-  font-size: 5rem;
+  font-size: 3rem;
+  color: rgba(29, 194, 242, 0.71);
 }
 
 .container a {
+  display: block;
+  margin: 30px auto 0;
+  padding: 15px;
+  width: 150px;
   font-size: 1.4rem;
+  background: rgba(29, 194, 242, 0.71);
+  color: #fff;
+  border-radius: 50px;
+  cursor: pointer;
 }
