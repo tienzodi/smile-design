@@ -1,0 +1,9 @@
+.left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background-color: rgba(39, 49, 67, 1);
+    color: rgba(204, 204, 204, 1);
+}

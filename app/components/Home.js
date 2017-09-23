@@ -9,7 +9,7 @@ export default class Home extends Component {
       <div>
         <div className={styles.container} data-tid="container">
           <h2>Welcome to Smile Design</h2>
-          <Link to="/counter">START</Link>
+          <Link to="/workspace">START</Link>
         </div>
       </div>
     );

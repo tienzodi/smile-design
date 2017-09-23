@@ -1,24 +1,49 @@
-.container {
+.main {
+  height: 100%;
+  overflow: hidden;
   position: absolute;
-  top: 30%;
+  top: 0;
+  bottom: 0;
   left: 0;
-  right:0;
-  text-align: center;
+  right: 0;
+  font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
 }
 
-.container h2 {
-  font-size: 3rem;
-  color: rgba(29, 194, 242, 0.71);
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
 
-.container a {
-  display: block;
-  margin: 30px auto 0;
-  padding: 15px;
-  width: 150px;
-  font-size: 1.4rem;
-  background: rgba(29, 194, 242, 0.71);
-  color: #fff;
-  border-radius: 50px;
-  cursor: pointer;
+.mid {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  left: 200px;
+  width: 280px;
+  height: 100%;
+  background-color: #fbfbfb;
+  border-right: 1px solid rgba(229, 229, 229, 1);
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: calc(100% - 480px);
+  height: 100%;
+  background-color: #fff;
+}
+
+.detailContent {
+  height: auto;
+  background-repeat: no-repeat;
+  background-position: 50% 40%;
+  flex: 1;
+  overflow: auto;
 }
