@@ -1,0 +1,36 @@
+.groupFooter {
+    position: absolute;
+    width: 100%;
+    height: 36px;
+    left: 0;
+    bottom: 0;
+}
+
+.settingBtn {
+    width: 16px;
+    height: 16px;
+    font-size: 15px;
+    position: absolute;
+    top: 5px;
+    left: 16px;
+   
+}
+
+.settingBtn:hover {
+    color: #eee;
+}
+
+.addCatBtn {
+    width: 16px;
+    height: 16px;
+    font-size: 16px;
+    position: absolute;
+    top: 5px;
+    right: 16px;
+    transition: all .3s ease;
+}
+
+.addCatBtn:hover {
+    color: #eee;
+    transform: rotate(90deg);
+}

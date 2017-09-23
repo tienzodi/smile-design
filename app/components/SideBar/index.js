@@ -9,7 +9,7 @@ export default class SideBar extends Component {
     render () {
         return (
             <div className={styles.left}>
-                <header id="titlebar">Hi</header>
+                <header id="titlebar"></header>
                 <SideBarAvatar />
                 <SideBarNavs />
                 <SideBarFooter />
