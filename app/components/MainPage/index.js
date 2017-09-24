@@ -8,8 +8,8 @@ import MainDetailPanel from '../../containers/MainDetailPanel';
 export default class MainPage extends Component {
   render() {
     return (
-      <div className={styles.main} >
-        <div className={styles.container} data-tid="container">
+      <div className="main" >
+        <div className="container" data-tid="container">
           <SideBar />
           <MainDetailPanel />
         </div>

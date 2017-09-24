@@ -8,7 +8,7 @@ import SideBarFooter from '../../containers/SideBarFooter';
 export default class SideBar extends Component {
     render () {
         return (
-            <div className={styles.left}>
+            <div className="left" >
                 <header id="titlebar"></header>
                 <SideBarAvatar />
                 <SideBarNavs />
