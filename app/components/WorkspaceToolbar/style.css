@@ -1,0 +1,14 @@
+.workspaceToolbar {
+    height: 50px;
+    border-bottom: 1px solid rgba(39, 49, 67, 1);
+    color: rgba(204, 204, 204, 1);
+}
+
+.toolbarIconList {
+    padding-top: 10px;
+}
+
+.toolbarIconList li {
+    display: inline-block;
+    margin-left: 10px;
+}

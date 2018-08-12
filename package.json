@@ -190,7 +190,7 @@
     "bootstrap": "^3.3.7",
     "devtron": "^1.4.0",
     "electron-debug": "^1.2.0",
-    "fabric": "^1.7.18",
+    "fabric": "^1.7.22",
     "font-awesome": "^4.7.0",
     "history": "^4.6.3",
     "react": "^15.6.1",
