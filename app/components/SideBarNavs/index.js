@@ -30,11 +30,11 @@ export default class SideBarNavs extends Component {
             <div className="groupNav">
                 <Menu mode="inline" theme="dark" openKeys={this.state.openKeys} selectedKeys={[this.state.current]}
                     onOpenChange={this.onOpenChange} onClick={this.handleClick}>
-                    <Menu.Item key='MainMenu'>
-                        <Icon type="inbox" /><span>ALL</span>
+                    <Menu.Item key='HOME'>
+                        <Icon type="inbox" /><span>HOME</span>
                     </Menu.Item>
-                    <Menu.Item key='UNKNOWN'>
-                        <Icon type="exception" /><span>UNCATEGORIZED</span>
+                    <Menu.Item key='ABOUT'>
+                        <Icon type="exception" /><span>ABOUT</span>
                     </Menu.Item>
                 </Menu>
             </div>
