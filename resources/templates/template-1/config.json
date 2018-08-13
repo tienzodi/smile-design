@@ -1,0 +1,63 @@
+{
+    "name": "Template 1",
+    "description": "This is sample",
+    "version": "1.0.1",
+    "data": [
+        {
+            "name": "Picture1.png",
+            "top": 10,
+            "left": 20,
+            "angle": 354,
+            "width": 30
+        },
+        {
+            "name": "Picture2.png",
+            "top": 10,
+            "left": 45,
+            "angle": 0,
+            "width": 32
+        },
+        {
+            "name": "Picture3.png",
+            "top": 20,
+            "left": 75,
+            "angle": 0,
+            "width": 35
+        },
+        {
+            "name": "Picture4.png",
+            "top": 30,
+            "left": 110,
+            "angle": 0,
+            "width": 40
+        },
+        {
+            "name": "Picture5.png",
+            "top": 30,
+            "left": 150,
+            "angle": 0,
+            "width": 40
+        },
+        {
+            "name": "Picture6.png",
+            "top": 25,
+            "left": 190,
+            "angle": 0,
+            "width": 30
+        },
+        {
+            "name": "Picture7.png",
+            "top": 22,
+            "left": 218,
+            "angle": 0,
+            "width": 30
+        },
+        {
+            "name": "Picture8.png",
+            "top": 15,
+            "left": 245,
+            "angle": 0,
+            "width": 20
+        }
+    ]
+}
